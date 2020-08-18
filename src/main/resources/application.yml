@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123QWE
+    url: jdbc:mysql://127.0.0.1:3306/media_room?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+server:
+  port: 8080

@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1586499760551'); /* IE9 */
+  src: url('iconfont.eot?t=1586499760551#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAAB7QAAAOKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCZgqDSIMgATYCJAMICwYABCAFhG0HMBu8BlGUDUqV7IckyQYoPbwnsg8AKEICBQAUAACABUAE3+/Hfs99FxFNqlE0kUiEaBI6SSxUm05odIaQCJVM+vL2f01TBCHzfFlWESr0B/kHnEvp+Rpf4arUhNyE25FdzgeCq69C7nUBoIod/+d+vi7Sns7yLnhOkUWZWjjA8Y7vDCi6yPaBPhh/+svh8Krx6NpOoNagjsy2yeEMZRn0C8RpuKVBOWWUa/JDtVBZMjWneEKsOl2nL+DR//n4oRDVJBUF4N7dX5owKZMIk8tkXi6KaDw7xFkUmAIysVPq3JYLI1NyavVJed1AkqD8t//wAqIS5NaDfhIJTfFJJKf8mwlk1OAN+OiVycyaCuJ4YkgLTMGSkYZji8MOMALJ+02c8hs5Cis5XFJK0RGFQ0trW3O4lEOOUpYqzrLKxn6herHCwUE07z9dqFWkcbC+nL2EO5+tuBqSD2YmhFec85mY8gG68+vr0egoi0RhY2MhU34+c0FBA2tS0TFCiTWxQnI+obAUUhwiuJSjtOgC5gImhRUoXBylc8jnDSnS2KelQs4ASC45479L02ceMWqHkN1ohKN8kVtCvI8Ze08PH6cYMWzXRJVkKBFxt0ryypjQWuc2HNpJskhEdsa2732xLagyKzoq7bTFbpiZk1IpXNbX3vPLMpgQ5llo6BFGu1aoEJIq5qkEspDyXCg5qRq+oYMnXv6V5sq9t+9clKPbz5ZEJvagj47InD3exyNRocgpwm4UoTE7h+LqYq5t8FGobW1jGDivbGxo3DKutLUzipiVG5saW2qKWsAEKL/LwuJHiH/cfm6eny99W8u/1XUZfA8O331BO3LmBtX36Ap+U72cyz9kSQKGlDVBTWEgeUP+DuS11E8J4G3119fdAWJ7qJZEGJIqA1CoNoTO+CmoUGcJKlVbg1qT1rPrtGE5kWsw4Y0gNPtC0ugDCs1+0Bn/CxU6/UOl5iig1l60LVlnJI4otvCkCZmov9AxolAxi1SD/CNZN1/jpMSnXolTx49DGblsfE0h8Rgj0rs1ElGoOApwhXYj348w5sglQ3q2SDzuy4aUfahnRAFUbWFEI4gJ6V6QwxAJKbe6qOa+f0QsNz4N15TVea8ISzmNo6GeQQv0Whm2KruWW1J3lhEhFKSwSACtkJ34NBJBcXknFzGIHrtHKDbWJ5VUW2VvfnXwdGugFuhS0HaFyoNwsW86AAAA') format('woff2'),
+  url('iconfont.woff?t=1586499760551') format('woff'),
+  url('iconfont.ttf?t=1586499760551') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1586499760551#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\f01ca";
+}
+

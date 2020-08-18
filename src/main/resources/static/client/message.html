@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <link rel="stylesheet" href="./css/message.css">
+    <link rel="stylesheet" href="./alibaba/font_07ofpcj2fvg/iconfont.css">
+    <link rel="stylesheet" href="./alibaba/font_ui13k3i3maj/iconfont.css">
+    <link rel="stylesheet" href="./font_9qdbj8xb6n/iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="js/left.js"></script>
+</head>
+<body>
+    <div id="main">
+        <article id="article-box">
+            <header class="message-head">
+                <h1>留言板</h1>
+                <h2>已有0人在此留言</h2>
+                <p></p>
+            </header>
+            <div class="content" style="background-color: white">
+                <form action="" method="post" id="comment-form" class="comment-panel">
+                    <header>
+                        <img src="./img/a.png" alt="" style="display: inline-block;">
+                        <hgroup>
+                            <input id="name" type="text" placeholder="点击此处输入你的称呼" maxlength="10">
+                            <h4>在未知地点说：</h4>
+                        </hgroup>
+                    </header>
+                    <textarea name="comment" id="ct" aria-required="true" cols="30" rows="10" placeholder="你也来说两句吧！点击这里输入留言内容" maxlength="9999"></textarea>
+                    <div class="btn">
+                        <div class="btn-email">
+                            <input name="email" type="text" placeholder="Email 地址" maxlength="39">
+                        </div>
+                        <div class="btn-email" style="margin-left: 10px">
+                            <input name="url" type="text" placeholder="个人主页或微博网址" maxlength="99">
+                        </div>
+                        <div class="btn-submit">
+                            <button name="submit" type="submit">保存</button>
+                        </div>
+                    </div>
+                    <p style="color: #a8a4a0">
+                        <strong style="font-family: 宋体">隐私说明:</strong>
+                        你个人主页网址会被公开链接，但 Email 地址不会被公开显示；你的 IP 地址会被保存，但只会公开显示你当前所在的城市名。
+                    </p>
+                </form>
+            </div>
+            <section class="comment">
+                <header>
+                    <img src="./img/a.png" alt="" style="display: inline-block;">
+                    <hgroup>
+                        <h3 style="color: #a8a4a0">某某</h3>
+                        <h4 style="color: #a8a4a0">
+                            <time>三天前</time>
+                            在未知地点说：
+                        </h4>
+                    </hgroup>
+                </header>
+                <div class="contents">
+                    <p style="color: #a8a4a0">评论</p>
+                </div>
+                <ul>
+                    <li class="liked">
+                        <i class="iconfont icon-aixin"></i>赞同（
+                        <span>2</span>）
+                    </li>
+                    <li class="disliked">
+                        <i class="iconfont icon-iconfontzan"></i>反对
+                        <span></span>
+                    </li>
+                    <li class="reply" onclick="btn_reply()">
+                        <i class="iconfont icon-huifu"></i>
+                        回复
+                    </li>
+                </ul>
+                <div class="clearfloat"></div>
+                <div class="btn-reply" style="display: none">
+                    <div class="content" style="background-color: white">
+                        <form action="" method="post" id="comment-form" class="comment-panel">
+                            <header>
+                                <img src="./img/a.png" alt="" style="display: inline-block;">
+                                <hgroup>
+                                    <input id="name" type="text" placeholder="点击此处输入你的称呼" maxlength="10">
+                                    <h4>在未知地点说：</h4>
+                                </hgroup>
+                            </header>
+                            <textarea name="comment" id="ct" aria-required="true" cols="30" rows="10" placeholder="你也来说两句吧！点击这里输入留言内容" maxlength="9999"></textarea>
+                            <div class="btn">
+                                <div class="btn-email">
+                                    <input name="email" type="text" placeholder="Email 地址" maxlength="39">
+                                </div>
+                                <div class="btn-email" style="margin-left: 10px">
+                                    <input name="url" type="text" placeholder="个人主页或微博网址" maxlength="99">
+                                </div>
+                                <div class="btn-submit">
+                                    <button name="submit" type="submit">保存</button>
+                                </div>
+                            </div>
+                            <p style="color: #a8a4a0">
+                                <strong style="font-family: 宋体">隐私说明:</strong>
+                                你个人主页网址会被公开链接，但 Email 地址不会被公开显示；你的 IP 地址会被保存，但只会公开显示你当前所在的城市名。
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </section>
+            <nav class="btn-fanye">
+                <ul>
+                    <!--<li class="button"></li>-->
+                    <li class="button" style="margin-left: -30px">
+                        <a href="#">
+                            <i class="iconfont icon-shangyiye"></i>
+                            上一页
+                        </a>
+                    </li>
+                    <!--<li style="width: 50px;height: 50px;margin-left: 50px;" class="button">-->
+                        <!--<a href="#">1</a>-->
+                    <!--</li>-->
+                    <li class="button" style="margin-left: 530px;">
+                        <a href="#">
+                            下一页
+                            <i class="iconfont icon-xiayiye"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </div>
+</body>
+</html>

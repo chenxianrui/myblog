@@ -1,0 +1,59 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: black;
+}
+.box{
+    margin: auto;
+    width: 50%;
+    background: black;
+    overflow: hidden;
+}
+.tt{
+    position: relative;
+    left: 0px;
+    transition: all 4s ease 0s;
+    opacity: 0;
+    transform:rotate(-0deg);
+    float: left;
+    color: seagreen;
+}
+.t1{
+    transition: all 4s ease 0.1s;
+}
+.t2{
+    transition: all 4s ease 0.2s;
+}
+.t3{
+    transition: all 4s ease 0.3s;
+}
+.t4{
+    transition: all 4s ease 0.4s;
+}
+.t5{
+    transition: all 4s ease 0.5s;
+}
+.t6{
+    transition: all 4s ease 0.6s;
+}
+.t7{
+    transition: all 4s ease 0.7s;
+}
+.t8{
+    transition: all 4s ease 0.8s;
+}
+.t9{
+    transition: all 4s ease 0.9s;
+}
+.t10{
+    transition: all 4s ease 1s;
+}
+
+body:hover .tt{
+    left: 330px;
+    opacity: 1;
+    transform:rotate(-720deg);
+}

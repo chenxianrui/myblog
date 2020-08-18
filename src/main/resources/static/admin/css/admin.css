@@ -1,0 +1,86 @@
+#admin-bg{
+    width: 15%;
+    height: 9%;
+    position: fixed;
+    top: 0;
+    margin-left: 42.5%;
+    border-radius: 10px;
+    background: url("../img/IMG_2861.jpg") no-repeat;
+    border: 1px solid red;
+    /*background-attachment:fixed;*/
+    opacity: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+.admin-chart{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 10px;
+    background:rgba(50,50,50,0.7);
+}
+li{
+    list-style: none;
+}
+
+/*图标*/
+#chart{
+    text-align: center;
+    margin: 0 auto;
+}
+#chart li{
+    float: left;
+}
+#chart ul {
+    /*text-align: center;*/
+    height: 10px;
+    color: #dfdddc;
+}
+#chart a {
+    color: #dfdddc;
+}
+#chart li {
+    width: 23px;
+    height: 23px;
+    list-style: none;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #cfc7c0;
+    cursor: pointer;
+    margin-left: 10px;
+    /*box-shadow:0 0 1px 1px #a8a4a0;*/
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#chart li:hover {
+    opacity: 0.6;
+    transition-duration: 0.8s;
+}
+
+/*提示效果*/
+.lay-clic {
+    width: 100%;
+    height: 20px;
+    margin-left: 7px;
+}
+
+.lay-clic span {
+    color: #c3b9b5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*滑入滑出*/
+.btnout, .btnin {
+    padding: 10px 20px;
+    background: #ff5a37;
+    color: #fff;
+    text-decoration: none;
+}
+#admin-bg.move {
+    left: 10px;
+    opacity: 1;
+}

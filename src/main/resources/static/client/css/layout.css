@@ -1,0 +1,55 @@
+.left-bg{
+    background: url("../img/IMG_2861.jpg") no-repeat;
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+    background-attachment:fixed;
+    width: 580px;
+    height: 1200px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.left{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background:rgba(50,50,50,0.7);
+    /*position: fixed;*/
+}
+
+
+#main{
+    width: 65%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    top: 0;
+    right: 0;
+    float: right;
+    position: fixed;
+    overflow-y: scroll;
+    background-color: #fafbff;
+    -webkit-animation: bgbody 3s ease;
+    -o-animation: bgbody 3s ease;
+    animation: bgbody 3s ease;
+}
+
+
+body{
+    -webkit-animation: bgbody 3s ease;
+    -o-animation: bgbody 3s ease;
+    animation: bgbody 3s ease;
+}
+@keyframes bgbody {
+    0%{
+        opacity: 0;
+        background-color: #ffffff;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+

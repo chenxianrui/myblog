@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1586269476028'); /* IE9 */
+  src: url('iconfont.eot?t=1586269476028#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPQAAsAAAAACMAAAAOCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqFIIQgATYCJAMMCwgABCAFhG0HPhtuBxHVm/vIfiSmWwzyzVtuidiSN8EDn2e9j3ZSaLgUkq55ktMV0FnRR4ANgM3N+rZGRSiW5Dz4X74j3RAuhB9/3Dv+jfNJYz+ggMMQ1t66MMD4A0Xh3udDJC6gLE8IG8ZuojyIyxCAm0wUQNSo1cDEQANmCUD07dWjE0bKgq4hCAy9s2SjNsQsHBhysrwCzOTvF28oJgyQOBRgYZPuNbtS5bnneWFlx2zaUhuR8VyAtg0UUADQINqXelqiwkwBFG5Ho+vLnWgEcqx4LMYlrsoJ//BAIkA4ARqvhM+TlfDcgyWxtrAoO2vpzU13Aj7gEfDHtCYCqAaO4M8OhYqmMZTuMXUz0t7k9k6JChVJ9XTxrjuSRtpHPb6Nx9OrJcc61VEWH80pSL/7dJqaZM23E815U5LDCyIpLRZmnpLH3GTntTZPzd8iNZIvHB0+dXPflXvyzFuWRi9evnmvJ7A//8LtI91o6uYkae84csHtn3Lp2C7hiOw+ftnj6xQ9lGvDnsQB8xLNRUnzPVMH/HjK4NR7lcyFe48uT8wT7tnUbBHuYa2qFbTgGDOn9TEasDJfycxRBKKfc9RSAtGPQhV717d2Dpd1+LAVIoMOHe42MA2HD4vCIooGiwQPKU8BuRJG+0Pps/r2n3j69Kve6fh6uEPymRNPnurkRf5QBuldlH3L0ws5zmS/+HZZ9p3Zl767mP3AmJK0yDF4wTMprZTSp6teXexzFDldOlJTySkhc2gfX9UM0ZsJsbZtX7uvmClzSynGZcvwcDoCEButUTYn2DrzNwQg4OmcSuc6BCp8MzwagEe7tmUXRO3F7arBQIIj/e0NOgViP3VmXQ6sSttqaiV+XjEG46WKRJHuJwYIxPOsvyHp1eYEBkkxSOLICAqDHIjGFwAHHkqAE4PK4CY/tbd7SKAfCqFdQD7GCyAIsh0kfo6DIshVROOfgoNk3oGToFDgJiwSDvSQS6hZV2c0gh7sH7KjPSC76KD+jvFqhpNyznojnzkOYzdk8yvuyGMsOT9xEgkQmDZYhOuwNYKDqaCTLokcc9+Hsgd1jjalVXVGI+jB/iE72gPtLjr3+jvGqxmuaevwv5HP3DuM3dACWTV7q7ZrGX5+4iQS5GmBaYNFdGGDGYKjfFxBJ13qkTrmXuoU2mq6+XXb80UBbgUOVzcplNDERdyjv0gXbPn6m90is1IAAA==') format('woff2'),
+  url('iconfont.woff?t=1586269476028') format('woff'),
+  url('iconfont.ttf?t=1586269476028') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1586269476028#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gengduo:before {
+  content: "\e62f";
+}
+
+.icon--liuyanban:before {
+  content: "\e60b";
+}
+

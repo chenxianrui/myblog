@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./alibabacharts/font_tmogm41803t/iconfont.css">
+    <link rel="stylesheet" href="../client/font_d755ntejev/iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+<a href="javascript:;" class="btnout">滑出</a>
+<a href="javascript:;" class="btnin">滑入</a>
+    <header id="admin-bg">
+        <div class="admin-chart">
+            <section id="chart">
+                <ul>
+                    <li style="margin-left: -25px" id="write-article">
+                        <a href="">
+                            <i class="iconfont icon-xiewenzhang"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" id="manager-article">
+                            <i class="iconfont icon-wenzhangguanli"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" id="manager-com">
+                            <i class="iconfont icon-pinglunguanli"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" id="manager-visiter">
+                            <i class="iconfont icon-fangkeguanli"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" id="night-style">
+                            <i class="iconfont icon-yejianmoshi"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" id="huge-com">
+                            <i class="iconfont icon-quanping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="lay-clic">
+            </section>
+        </div>
+    </header>
+</body>
+<script>
+    //滑入滑出
+    (function () {
+        document.querySelector('body').addEventListener('click', function (e) {
+            if (e.target.className === 'btnin') {
+                document.querySelector('#admin-bg').className = 'move';
+            }
+            if (e.target.className === 'btnout') {
+                document.querySelector('#admin-bg').className = '';
+            }
+        }, false);
+    })();
+</script>
+</html>

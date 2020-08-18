@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "493509",
+      "name": "回复",
+      "font_class": "huifu",
+      "unicode": "e7ac",
+      "unicode_decimal": 59308
+    }
+  ]
+}

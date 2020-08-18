@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/client/css/layout_left.css}">
+    <link rel="stylesheet" th:href="@{/client/css/layout_right.css}">
+    <link rel="stylesheet" th:href="@{/client/css/layout.css}">
+    <link rel="stylesheet" th:href="@{/client/font_d755ntejev/iconfont.css}">
+    <link rel="stylesheet" th:href="@{/client/font_fvgpcvhbwq6/iconfont.css}">
+    <link rel="stylesheet" th:href="@{/client/font_9qdbj8xb6n/iconfont.css}">
+    <link rel="stylesheet" th:href="@{/client/alibaba/font_3zajdhjqmf4/iconfont.css}">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script th:src="@{/client/js/left.js}"></script>
+</head>
+<body>
+    <header id="left" class="left-main">
+        <div class="left-bg">
+            <div class="left" id="img_radius">
+                <section class="lay">
+                    <img th:src="@{/client/img/head_photo.png}" class="img_lay">
+                    <a href="#">
+                        <hgroup>
+                            <h1 style="font-size: 15px; color: #dbd8d6">chenXianRui的博客</h1>
+                            <h2 style="font-size: 13px; color: #dbd8d6">ChenXianRui's Blog</h2>
+                        </hgroup>
+                    </a>
+                </section>
+                <section class="lay_chart">
+                    <ul>
+                        <li data-subtitle="返回主页" id="zhuye">
+                            <!--<a href="javascript:$('#main').load('./right.html')" id="zhuye">-->
+                            <a th:href="@{/right}" id="zhuye">
+                                <i class="iconfont icon-zhuye"></i>
+                            </a>
+                        </li>
+                        <li data-subtitle="留言板" id="liuyan">
+                            <!--<a href="javascript:$('#main').load('./message.html')">-->
+                            <a th:href="@{/message}">
+                                <i class="iconfont icon-liuyan"></i>
+                            </a>
+                        </li>
+                        <li data-subtitle="我的GitHub" id="dingyue">
+                            <a href="#">
+                                <i class="iconfont icon-github"></i>
+                            </a>
+                        </li>
+                        <li data-subtitle="切换字体风格" id="ziti">
+                            <i class="iconfont icon-ziti"></i>
+                        </li>
+                        <li data-subtitle="夜间模式" id="yejianmoshi">
+                            <i class="iconfont icon-yejianmoshi"></i>
+                        </li>
+                        <li data-subtitle="全屏模式" id="quanping" ondblclick='toggleFullScreen();'>
+                            <i class="iconfont icon-quanping"></i>
+                        </li>
+                    </ul>
+                </section>
+                <section class="lay-clic">
+                </section>
+                <section class="lay_chart" style="color: #beb3af;font-size: 15px">
+                    <p>"00后，爱好编程。"</p>
+                </section>
+                <section class="lay-comments">
+                    <div class="border1">
+                        <div id="comments-list">
+                            <li class="comments">
+                                <img th:src="@{/client/img/a.png}" alt="">
+                                <h4>姓名</h4>
+                                <p>内容</p>
+                            </li>
+                            <li class="comments">
+                                <img th:src="@{/client/img/a.png}" alt="">
+                                <h4>姓名</h4>
+                                <p>内容</p>
+                            </li>
+                            <li class="comments">
+                                <img th:src="@{/client/img/a.png}" alt="">
+                                <h4>姓名</h4>
+                                <p>内容</p>
+                            </li>
+                            <li class="comments">
+                                <img th:src="@{/client/img/a.png}" alt="">
+                                <h4>姓名</h4>
+                                <p>内容</p>
+                            </li>
+                            <li class="comments">
+                                <img th:src="@{/client/img/a.png}" alt="">
+                                <h4>姓名</h4>
+                                <p>内容</p>
+                            </li>
+                        </div>
+                        <div class="buttons">
+                            <div class="buttons-comments">
+                                <a href="#">
+                                    <i class="iconfont icon-gengduo"></i>
+                                    查看更多
+                                </a>
+                            </div>
+                            <div class="buttons-comments">
+                                <a href="#">
+                                    <i class="iconfont icon--liuyanban"></i>
+                                    写新留言
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--<div class="left" id="img_radius" style="background-color: #545a61">-->
+        </div>
+    </header>
+    <div id="main">
+        <article class="main-ar btn-wrapper">
+            <header class="btn-wrapper__container">
+                <div class="btn-inner">
+                    <h2>
+                        <!--<a href="javascript:$('#main').load('./article.html')">个人网站第七次改版</a>-->
+                        <a th:href="@{/article}">个人网站第七次改版</a>
+                    </h2>
+                    <p>我每年都会重新设计与开发一次自己的个人网站，每次改版都会整理自己在过去一年里所学到的东西并与大家分享。迟到了三年的第七版，终于在今天正式上线。</p>
+                    <span>
+                    <time> 12 个月前</time>
+                    发布 | 48 条评论
+                </span>
+                </div>
+            </header>
+        </article>
+        <article class="main-ar btn-wrapper">
+            <header class="btn-wrapper__container">
+                <div class="btn-inner">
+                    <h2>
+                        <a href="#">个人网站第七次改版</a>
+                    </h2>
+                    <p>我每年都会重新设计与开发一次自己的个人网站，每次改版都会整理自己在过去一年里所学到的东西并与大家分享。迟到了三年的第七版，终于在今天正式上线。</p>
+                    <span>
+                    <time> 12 个月前</time>
+                    发布 | 48 条评论
+                </span>
+                </div>
+            </header>
+        </article>
+        <article class="main-ar btn-wrapper">
+            <header class="btn-wrapper__container">
+                <div class="btn-inner">
+                    <h2>
+                        <a href="#">个人网站第七次改版</a>
+                    </h2>
+                    <p>我每年都会重新设计与开发一次自己的个人网站，每次改版都会整理自己在过去一年里所学到的东西并与大家分享。迟到了三年的第七版，终于在今天正式上线。</p>
+                    <span>
+                    <time> 12 个月前</time>
+                    发布 | 48 条评论
+                </span>
+                </div>
+            </header>
+        </article>
+        <article class="main-ar btn-wrapper">
+            <header class="btn-wrapper__container">
+                <div class="btn-inner">
+                    <h2>
+                        <a href="#">个人网站第七次改版</a>
+                    </h2>
+                    <p>我每年都会重新设计与开发一次自己的个人网站，每次改版都会整理自己在过去一年里所学到的东西并与大家分享。迟到了三年的第七版，终于在今天正式上线。</p>
+                    <span>
+                    <time> 12 个月前</time>
+                    发布 | 48 条评论
+                </span>
+                </div>
+            </header>
+        </article>
+        <article class="main-ar btn-wrapper">
+            <header class="btn-wrapper__container">
+                <div class="btn-inner">
+                    <h2>
+                        <a href="#">个人网站第七次改版</a>
+                    </h2>
+                    <p>我每年都会重新设计与开发一次自己的个人网站，每次改版都会整理自己在过去一年里所学到的东西并与大家分享。迟到了三年的第七版，终于在今天正式上线。</p>
+                    <span>
+                    <time> 12 个月前</time>
+                    发布 | 48 条评论
+                </span>
+                </div>
+            </header>
+        </article>
+        <nav class="button">
+            <ul>
+                <!--<li class="button"></li>-->
+                <li>
+                    <a href="#">
+                        下一页
+                        <i class="iconfont icon-xiayiye"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfloat"></div>
+    </div>
+</body>
+</html>

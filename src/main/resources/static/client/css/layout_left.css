@@ -1,0 +1,204 @@
+/*body::-webkit-scrollbar {*/
+    /*display: none;*/
+/*}*/
+
+.img_lay {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 70px;
+    left: 42%;
+    right: 68%;
+}
+
+.lay {
+    width: 580px;
+    height: 20%;
+    /*border: 1px solid black;*/
+}
+
+hgroup {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#img_radius {
+    margin: 0 auto;
+}
+
+.lay img {
+    border: 2px solid #a8a4a0;
+    border-radius: 50%;
+}
+
+/*图标*/
+.lay_chart {
+    text-align: center;
+}
+
+.lay_chart span {
+    color: #c3b9b5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lay_chart ul {
+    /*text-align: center;*/
+    height: 10px;
+    margin-left: -8%;
+    color: #dfdddc;
+}
+
+.lay_chart a {
+    color: #dfdddc;
+}
+
+.lay_chart li {
+    width: 23px;
+    height: 23px;
+    list-style: none;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #cfc7c0;
+    cursor: pointer;
+    margin-left: 7px;
+    /*box-shadow:0 0 1px 1px #a8a4a0;*/
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+.lay_chart li:hover {
+    opacity: 0.6;
+    transition-duration: 0.8s;
+}
+
+/*提示效果*/
+.lay-clic {
+    width: 50%;
+    height: 20px;
+    margin-left: 182px;
+}
+
+.lay-clic span {
+    color: #c3b9b5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+/*留言板*/
+.lay-comments {
+    width: 70%;
+    height: 590px;
+    /*border: 1px solid red;*/
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#comments-list {
+    width: 350px;
+    height: 430px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.comments {
+    width: 350px;
+    height: 65px;
+    margin-top: 20px;
+}
+
+.comments img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 3%;
+}
+
+.comments h4 {
+    font-size: 15px;
+    color: #c3b9b5;
+    margin-top: 2px;
+}
+
+.comments p {
+    font-size: 13px;
+    padding-top: 0;
+    color: #ccc3bf;
+}
+
+.buttons {
+    width: 520px;
+    height: 75px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+.buttons-comments {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #a8a4a0;
+    margin-left: 55px;
+    float: left;
+    border-radius: 13px;
+}
+
+.buttons-comments a {
+    color: #dfdddc;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 13px;
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+.buttons-comments a:hover {
+    opacity: 0.6;
+    transition-duration: 0.8s;
+}
+
+.back {
+    width: 100%;
+    height: 50%;
+    background: #00ff00;
+}
+
+.lay-comments:hover .border1 {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+}
+
+.border1 {
+    position: absolute;
+    top: -75%;                     /*下拉*/
+    left: 0px;
+    width: 100%;
+    height: 165%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+}
+
+.clearfloat {
+    clear: both;
+    height: 50px;
+    font-size: 1px;
+    line-height: 0px;
+}
