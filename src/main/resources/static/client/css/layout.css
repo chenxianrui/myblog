@@ -15,7 +15,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    width: 35%;
+    width: 580px;
     height: 100%;
     background:rgba(50,50,50,0.7);
     /*position: fixed;*/
@@ -23,7 +23,7 @@
 
 
 #main{
-    width: 65%;
+    width: 1200px;
     height: 100%;
     /*border: 1px solid red;*/
     top: 0;

@@ -1,6 +1,6 @@
-/*body::-webkit-scrollbar {*/
-    /*display: none;*/
-/*}*/
+body::-webkit-scrollbar {
+    display: none;
+}
 
 .img_lay {
     width: 100px;

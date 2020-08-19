@@ -11,6 +11,18 @@
     <link rel="stylesheet" th:href="@{/client/font_9qdbj8xb6n/iconfont.css}">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <script th:src="@{/client/js/left.js}"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script>
+        // document.write('<hr><br><h1> 老铁位置：'+JSON.stringify(cityCode)+'</h1>');
+        // document.getElementById("getCity").innerHTML = cityCode;
+        window.onload=function(){
+            var cityCode=returnCitySN.cname;
+            var ipCode = returnCitySN.cip;
+            var oDiv=document.getElementById("getCity");
+            var txt =document.createTextNode(cityCode);
+            oDiv.appendChild(txt);
+        }
+    </script>
 </head>
 <body>
     <div id="main">
@@ -23,10 +35,10 @@
             <div class="content" style="background-color: white">
                 <form action="" method="post" id="comment-form" class="comment-panel">
                     <header>
-                        <img src="./img/a.png" alt="" style="display: inline-block;">
+                        <img th:src="@{/client/img/a.png}" alt="" style="display: inline-block;">
                         <hgroup>
                             <input id="name" type="text" placeholder="点击此处输入你的称呼" maxlength="10">
-                            <h4>在未知地点说：</h4>
+                            <h4>在<span id="getCity" style="font-size: 25px"></span>说：</h4>
                         </hgroup>
                     </header>
                     <textarea name="comment" id="ct" aria-required="true" cols="30" rows="10" placeholder="你也来说两句吧！点击这里输入留言内容" maxlength="9999"></textarea>
@@ -49,7 +61,7 @@
             </div>
             <section class="comment">
                 <header>
-                    <img src="./img/a.png" alt="" style="display: inline-block;">
+                    <img th:src="@{/client/img/a.png}" alt="" style="display: inline-block;">
                     <hgroup>
                         <h3 style="color: #a8a4a0">某某</h3>
                         <h4 style="color: #a8a4a0">
